@@ -7,7 +7,7 @@ def compute_descriptive_statistics(file_path):
         'mean': data.mean(),
         'median': data.median(),
         'mode': data.mode().iloc[0],
-        'variance': data.var(),
+        'variance': data.var(), m
         'std_dev': data.std(),
         'range': data.max() - data.min(),
         'iqr': data.quantile(0.75) - data.quantile(0.25),
